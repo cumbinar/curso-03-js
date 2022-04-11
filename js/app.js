@@ -89,3 +89,20 @@ switch(metodoPago){
     default:
         console.log('aún no has seleccionado un método de pago');
 }
+
+
+//operador && si se cumplen dos condiciones//
+
+const usuario = true;
+const puedoPagar = false;
+
+if (usuario && puedoPagar) {
+    console.log('Si puedes hacer la compra')
+} else if (!usuario) {
+    console.log('Inicia seción o saca una cuenta')
+} else if (!puedoPagar) {
+    console.log('Fondos insuficientes')
+} else {
+    console.log('No puedes comprar')
+}
+/*!usuario esto cambia el valor de usuario a false*/
