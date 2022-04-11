@@ -35,3 +35,24 @@ if (numero === "1000") {
 }
 
 /*  !== (diferente estricto), ===(igual estricto)  */
+
+
+//mayor que y menor que ////
+
+
+const dinero = 200;
+const totalAPagar = 300;
+
+if (dinero >= totalAPagar) {
+    console.log('Si se puede pagar')
+} else {
+    console.log('Saldo insuficiente')
+}
+
+const edad = 20;
+
+if (edad < 18) {
+    console.log('Eres menor de edad')
+} else {
+    console.log('Eres mayor de edad')
+}
