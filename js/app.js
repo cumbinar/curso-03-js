@@ -106,3 +106,16 @@ if (usuario && puedoPagar) {
     console.log('No puedes comprar')
 }
 /*!usuario esto cambia el valor de usuario a false*/
+
+//operador or || para que se cumpla al menos una condición///
+
+const efectivo = 3000; 
+const credito = 4000;
+const disponible = efectivo + credito;
+const total = 6000;
+
+if (efectivo > total || credito > total  || disponible > total) {
+    console.log('si puedes hacer la compra')
+} else {
+    console.log('Fondos insuficientes')
+}
