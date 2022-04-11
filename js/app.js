@@ -119,3 +119,17 @@ if (efectivo > total || credito > total  || disponible > total) {
 } else {
     console.log('Fondos insuficientes')
 }
+
+//Detener la ejecución de un if con una función///
+
+const puntos = 350;
+function revisarPuntaje() {
+    if (puntos > 400) {
+        console.log('Excelente');
+        return;
+    } if (puntos > 300) {
+        console.log('Buen puntaje...felicitaciones');
+        return;
+    }
+}
+revisarPuntaje(); /*return saca el if si se cumple una condición*/
