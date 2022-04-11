@@ -133,3 +133,9 @@ function revisarPuntaje() {
     }
 }
 revisarPuntaje(); /*return saca el if si se cumple una condición*/
+
+
+//operador ternario////
+
+const autenticado = false;
+console.log(autenticado ? 'si está autenticado' : 'No está autenticado');
