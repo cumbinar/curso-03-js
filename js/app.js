@@ -71,3 +71,21 @@ if (saldo >= compra) {
 } else {
     console.log('Fondos insuficientes')
 }
+
+///switch case para evaluar multiples condiciones///
+
+const metodoPago = 'tarjeta';
+
+switch(metodoPago){
+    case 'efectivo':
+        console.log(`Pagaste con ${metodoPago}`);
+        break;
+    case 'cheque':
+         console.log(`Pagaste con ${metodoPago}`);
+        break;
+    case 'tarjeta':
+         console.log(`Pagaste con ${metodoPago}`);
+        break;
+    default:
+        console.log('aún no has seleccionado un método de pago');
+}
