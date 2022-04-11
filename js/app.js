@@ -56,3 +56,18 @@ if (edad < 18) {
 } else {
     console.log('Eres mayor de edad')
 }
+
+//Mayor igual y elseif//
+
+const saldo = 800;
+const compra = 900;
+const tarjeta = false;
+
+
+if (saldo >= compra) {
+    console.log('si se puede pagar')
+} else if (tarjeta) {
+    console.log('Si puedo pagar con tarjeta')
+} else {
+    console.log('Fondos insuficientes')
+}
